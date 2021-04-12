@@ -236,6 +236,19 @@ a{
 .col-12{
     width: 100%;
 }
+.information-of-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.information-of-footer .logo-bijond{
+    width: 90px;
+    height: 90px;
+}
+.logo-bijond img{
+    width: 100%;
+    height: 100%;
+}
 /* ==================medium devices =======================*/
 @media (max-width: 780px){
     @media (max-width: 440px){
@@ -301,6 +314,12 @@ a{
     }
     .img-ilustra{
         height: 55vmax;
+    }
+    .information-of-footer{
+        display: flex;
+        justify-content: none;
+        flex-direction: column;
+        align-items: center;
     }
     /*===================*/
     .fz-40px{
