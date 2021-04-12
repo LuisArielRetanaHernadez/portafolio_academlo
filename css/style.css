@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Varela Round',sans-serif;
+    font-size: 63px;
+    font-weight: 400;
+}
+h2{
+    font-family: 'Varela Round',sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+a,p{
+    font-family: 'Varela Round',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #323335;
+}
+p{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+/*================================================*/
+.img-header{
+    background-image: url(../img/img-header.webp);
+    background-size: cover;
+    background-position: center 55%;
+    height: 45em; 
+}
+
+.img-space{
+    background-image: url(../img/img-sec-1.webp);
+    background-size: cover;
+    background-position: center center;
+    height: 40em;
+}
+.img-tecnologia{
+    background-image: url(../img/img-sec-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 30em;
+}
+.img-ilustra{
+    background-image: url(../img/img-ilustra.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 30em;
+}
+.mod-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.content-hello{
+    width: 80%;
+    color: white;
+    margin-top: 20px;
+}
+.icono-scroll{
+    margin-top: 30px;
+}
+.col-6 .icono-scroll{
+    width: 5%;
+    height: 5%;
+    margin-right: 70%;
+    background-color: #414B70;
+}
+.icono-scroll a svg{
+    width: 50px;
+    height: 40px;
+    color: white;
+    margin-left: 10%;
+}
+.icono-scroll a svg path{
+    width: 100%;
+    height: 100%;
+}
+.cja-width-50{
+    width: 50%;
+    color: black;
+}
+.content-space{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+.content-tech{
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+}
+.content-hello .content-jetzt{
+    width: auto;
+}
+.content-jetzt{
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+}
+.content-jetzt a{
+    color: black;
+    display: inline-block;
+    padding: 16px 30px;
+}
+.col-6 .content-jetzt{
+    width: 40%;
+}
+.box-shadow-jetzt{
+    box-shadow: -15px 15px 5px black;
+}
+.col-6 .cja-text-space{
+    width: 85%;
+    margin: auto;
+    margin-top: 10vh;
+}
+/*============================================*/
+.container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    word-wrap: break-word;
+}
+.row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{
+    width: 8.333333333333333%;
+}
+.col-2{
+    width: 16.66666666666667%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 8.333333333333333%;
+}
+.col-5{
+    width: 33.33333333333333%;
+}
+.col-6{
+    width: 50%;
+}
+.col-12{
+    width: 100%;
+}
+/* medium devices */
+@media (max-width: 650px){
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .col-6{
+        width: 100%;
+    }
+    /*============================*/
+    p,a{
+        font-size: 16px !important;
+    }
+    h1{
+        font-size: 36px !important;
+    }
+    h2{
+        font-size: 23px !important;
+    }
+    /*================================*/
+    .content-hello{
+        width: 90%;
+        color: white;
+        margin-top: 20px;
+    }
+    .content-jetzt a{
+        box-sizing: border-box;
+        color: black;
+        display: inline-block;
+        padding: 16px 20px;
+    }
+    .icono-scroll a{
+        margin: auto;
+    }
+    .col-6 .icono-scroll{
+        margin: 0%;
+    }
+    .von-hause{
+        text-align: center;
+    }
+    /*.........*/
+    /*===================*/
+    .fz-40px{
+        font-size: 40px;
+    }
+}
+/*======================================*/
+.height-50em{
+    height: 50em;
+}
+.background-152736{
+    background-color: #152736;
+}
+.color-414B70{
+    color: #414B70;
+}
+.margin-auto{
+    margin: auto;
+}
+.margin-0{
+    margin: 0;
+}
+.padding-15px{
+    padding: 15px;
+}
+.text-align-center{
+    text-align: center;
+}
+.position-relative{
+    position: relative;
+}
+/*===================================*/
+.space-h2{
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.space-container{
+    margin-bottom: 1vmax;
+}
