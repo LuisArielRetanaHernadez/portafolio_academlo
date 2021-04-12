@@ -114,8 +114,13 @@ a{
 .box-shadow-jetzt{
     box-shadow: -15px 15px 5px black;
 }
-.col-6 .cja-text-space{
+.col-6 .content-travelling{
     width: 85%;
+    margin: auto;
+    margin-top: 10vh;
+}
+.col-6 .content-text-Technologie{
+    width: 80%;
     margin: auto;
     margin-top: 10vh;
 }
@@ -230,6 +235,9 @@ a{
 }
 .position-relative{
     position: relative;
+}
+.flex-direction-row-reverse{
+    flex-direction: row-reverse;
 }
 /*===================================*/
 .space-h2{
