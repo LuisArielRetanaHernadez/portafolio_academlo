@@ -171,7 +171,7 @@ a{
     margin-bottom: 20px !important;
 }
 .col-12 .a-btn{
-    width: 20%;
+    width: 200px;
     height: 40px;
     margin: auto;
 }
@@ -182,6 +182,10 @@ a{
 }
 .a-btn a p{
     font-size: 15px;
+    margin: 0;
+}
+.a-btn{
+    padding: 4px 20px 4px 20px;
 }
 /*============================================*/
 .container{
@@ -223,6 +227,10 @@ a{
     @media (max-width: 440px){
         .img-header{
             height: 55vmax;
+        }
+        .col-12 .a-btn{
+            width: 70%;
+            height: 45px;
         }
     }
     .row{
@@ -272,7 +280,6 @@ a{
     .von-hause{
         text-align: center;
     }
-    /*.........*/
     .img-ilustra{
         height: 55vmax;
     }
