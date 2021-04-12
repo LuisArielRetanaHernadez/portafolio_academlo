@@ -291,6 +291,11 @@ a{
         margin: auto;
         margin-top: 10vh;
     }
+    .col-12 .content-text-schneller{
+        width: 90%;
+        margin: auto;
+        margin-top: 10vh;
+    }
     .von-hause{
         text-align: center;
     }
