@@ -12,6 +12,10 @@ h2{
     font-size: 40px;
     font-weight: 400;
 }
+h3{
+    font-family: 'Varela Round',sans-serif;
+    font-weight: 400;
+}
 a,p{
     font-family: 'Varela Round',sans-serif;
     font-size: 18px;
@@ -52,8 +56,22 @@ a{
     width: 100%;
     height: 22em;
 }
+.img-ilustra-2{
+    background-image: url(../img/img-ilustra-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 22em;
+}
 .img-mehrwert{
     background-image: url(../img/img-mehrwert.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 22em;
+}
+.img-ilustra-3{
+    background-image: url(../img/img-ilustra-3.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -136,6 +154,35 @@ a{
     margin: auto;
     margin-top: 10vh;
 }
+.col-12 .content-text-ein-klick{
+    width: 50%;
+    margin: auto;
+    margin-top: 10vh;
+}
+.col-12 .content-text-greifbar{
+    width: 50%;
+    margin: auto;
+    margin-top: 10vh;
+}
+.a-btn{
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+.col-12 .a-btn{
+    width: 20%;
+    height: 40px;
+    margin: auto;
+}
+.a-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-btn a p{
+    font-size: 15px;
+}
 /*============================================*/
 .container{
     position: relative;
@@ -171,7 +218,7 @@ a{
 .col-12{
     width: 100%;
 }
-/* medium devices */
+/* ==================medium devices =======================*/
 @media (max-width: 780px){
     @media (max-width: 440px){
         .img-header{
@@ -214,6 +261,14 @@ a{
     .col-6 .icono-scroll{
         margin: 0%;
     }
+    .col-12 .content-text-ein-klick{
+        width: 90%;
+    }
+    .col-12 .content-text-greifbar{
+        width: 90%;
+        margin: auto;
+        margin-top: 10vh;
+    }
     .von-hause{
         text-align: center;
     }
@@ -254,10 +309,19 @@ a{
 .flex-direction-row-reverse{
     flex-direction: row-reverse;
 }
+.text-decoration{
+    text-decoration: underline;
+}
+.color-white{
+    color: white;
+}
 /*===================================*/
 .space-h2{
     display: inline-block;
     margin-bottom: 40px;
+}
+.space-text{
+    margin-bottom: 20px;
 }
 .space-container{
     margin-bottom: 5vmax;
