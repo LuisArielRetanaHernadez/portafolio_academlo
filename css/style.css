@@ -155,7 +155,12 @@ a{
     width: 100%;
 }
 /* medium devices */
-@media (max-width: 750px){
+@media (max-width: 780px){
+    @media (max-width: 440px){
+        .img-header{
+            height: 25em;
+        }
+    }
     .row{
         display: flex;
         flex-wrap: wrap;
@@ -232,5 +237,5 @@ a{
     margin-bottom: 40px;
 }
 .space-container{
-    margin-bottom: 1vmax;
+    margin-bottom: 5vmax;
 }
