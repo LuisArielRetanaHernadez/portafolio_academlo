@@ -156,7 +156,7 @@ a{
     width: 100%;
 }
 /* medium devices */
-@media (max-width: 650px){
+@media (max-width: 750px){
     .row{
         display: flex;
         flex-wrap: wrap;
