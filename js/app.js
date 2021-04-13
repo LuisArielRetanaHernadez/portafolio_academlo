@@ -12,9 +12,9 @@ window.addEventListener('scroll', () =>{
     let coords = animati.getBoundingClientRect()
     position = coords.top + scrollY 
     document.querySelector('.menu').style.display = 'none';
-    console.log(position)
+    //console.log(position)
     if (position > 0){
-        animati.style.transition = "all 0.9s"
+        //animati.style.transition = "all 0.9s"
         document.querySelector('.menu').style.display = 'flex';
     }
 })
