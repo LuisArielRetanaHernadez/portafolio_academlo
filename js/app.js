@@ -7,3 +7,13 @@ addEventListener('DOMContentLoaded', () => {
         })
     }
 })
+window.addEventListener('scroll', () =>{
+    let animati = document.querySelector('.menu')
+    let coords = animati.getBoundingClientRect()
+    position = coords.top + scrollY 
+    document.querySelector('.menu').style.display = 'none';
+    console.log(position)
+    if (position > 0){
+        document.querySelector('.menu').style.display = 'flex';
+    }
+})

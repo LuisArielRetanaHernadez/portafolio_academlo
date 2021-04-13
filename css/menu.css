@@ -20,6 +20,10 @@ header .menu{
     border-bottom: 1px solid #fff;
     box-shadow: 5px 0 5px rgba(0,0,0,.6);
 }
+.menu{
+    display: none;
+    transition: .9s;
+}
 .menu-items{
     display: flex;
     list-style: none;
