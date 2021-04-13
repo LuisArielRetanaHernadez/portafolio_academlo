@@ -11,10 +11,12 @@ window.addEventListener('scroll', () =>{
     let animati = document.querySelector('.menu')
     let coords = animati.getBoundingClientRect()
     position = coords.top + scrollY 
-    document.querySelector('.menu').style.display = 'none';
+    //document.querySelector('.menu').style.display = 'none';
     //console.log(position)
     if (position > 0){
         //animati.style.transition = "all 0.9s"
         document.querySelector('.menu').style.display = 'flex';
+    }else{
+        document.querySelector('.menu').style.display = 'none'; 
     }
 })
