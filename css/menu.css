@@ -22,7 +22,6 @@ header .menu{
 }
 .menu{
     display: none;
-    transition: .9s;
 }
 .menu-items{
     display: flex;
@@ -37,12 +36,13 @@ header .menu{
     padding: 7px 13px;
     text-decoration: none;
     font-size: 18px;
-    display: block;
     color: black;
+    display: block;
 }
 .menu-items li:hover, li.active{
     background-color: #152736;
-    transition: .9s;
+    border-radius: 15px;
+    transition: .4s;
 }
 .btn-menu {
     margin-right: 30px;

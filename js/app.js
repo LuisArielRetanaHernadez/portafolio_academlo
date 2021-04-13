@@ -14,6 +14,7 @@ window.addEventListener('scroll', () =>{
     document.querySelector('.menu').style.display = 'none';
     console.log(position)
     if (position > 0){
+        animati.style.transition = "all 0.9s"
         document.querySelector('.menu').style.display = 'flex';
     }
 })
