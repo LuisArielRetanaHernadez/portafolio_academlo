@@ -54,6 +54,11 @@ ul.show{
     .menu-items li a {
         font-size: 16px;
     }
+    .menu{
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
 }
 @media screen and (max-width: 858px) {
     .menu{
